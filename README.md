@@ -1,4 +1,6 @@
-# Simple Project
+#CheckBank
+
+Simple Project
 
 A simple bank created in Java to apply my knowledge. 
 
