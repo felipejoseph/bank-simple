@@ -25,6 +25,14 @@ public class Conta {
 		this.numero = numero;
 	}
 	
+	public void depositar (double depositaValor) {
+		this.setSaldo(this.getSaldo() + depositaValor);
+		
+	}
+	public boolean transferir (double transfereValor) {
+		this.setSaldo(this.getSaldo() - transfereValor);
+		return true;
+		}
 	
+	}
 	
-}
