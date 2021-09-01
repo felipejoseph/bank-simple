@@ -1,6 +1,7 @@
 import java.util.Scanner;
 import java.time.LocalDateTime;
 
+//@version 0.0.3
 public class checkbank {
 	static Scanner s = new Scanner(System.in);
 	
@@ -132,7 +133,7 @@ public class checkbank {
 			case 4:
 				//transfere
 				System.out.println("Bem vindo a area de transferências");
-				System.out.println("Por favor digite o valor digitado:");
+				System.out.println("Por favor digite o valor desejado:");
 				double digitaValor = s.nextDouble();
 				System.out.println("o valor digitado foi de R$ " + digitaValor);
 				System.out.println("Voce confirma esse valor ?");
